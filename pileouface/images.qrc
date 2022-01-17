@@ -1,0 +1,7 @@
+<RCC>
+    <qresource prefix="/new/prefix1">
+        <file>image/1_euro_face_commune_2.png</file>
+        <file>image/1_euro_France.png</file>
+        <file>image/pi (1).png</file>
+    </qresource>
+</RCC>
