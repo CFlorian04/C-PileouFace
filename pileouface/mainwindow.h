@@ -16,11 +16,19 @@ public:
     ~MainWindow();
     void lancer_piece();
     void verif();
-    
-private slots:
-    void on_pushButton_clicked();
+    void set_scoreboard();
+    void set_connexion();
+    void set_jeu();
+    void parametre_visuel(int varBase, int varInverse);
 
-    void on_pushButton_2_clicked();
+
+private slots:
+    void on_pile_button_clicked();
+    void on_face_button_clicked();
+    void on_option_clicked();
+    void on_connexion_button_clicked();
+
+    void on_restart_button_clicked();
 
 private:
     Ui::MainWindow *ui;
