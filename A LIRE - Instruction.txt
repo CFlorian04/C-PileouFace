@@ -1,0 +1,27 @@
+		PROJET QT Creator :
+		Pile ou Face
+
+#####################################
+
+Le projet a été fait en version 6.0.1.
+La fonction aléatoire 'srand' n'existe pas dans les versions précédentes.
+Si c'est le cas remplacer : 'std::srand(time(NULL));' par 'qrand(time(NULL));' 
+
+Modification à faire :
+	- Remplacer le chemin de la BDD en ligne 23 de mainwindow.cpp
+
+#####################################
+
+Explication du JEU :
+
+C'est un jeu de Pile ou Face classique sauf qu'il y a des vies.
+En cas de bon choix vous gagnez un point, sinon vous perdez une vie.
+Une fois vos 3 vies perdus et la partie s'arrête.
+Le but est d'avoir le plus grand score.
+
+Un scoreboard est affiché avec les meilleurs résultats des joueurs.
+
+#####################################
+
+LINEAU Gerby / BENYOUCEF Bilal / CODEBECQ Florian
+BTS SNIR2

@@ -5,8 +5,8 @@
         <file>image/piece_pile.png</file>
         <file>image/pi.png</file>
         <file>image/piece_face.png</file>
-        <file>image/piece_animation2.gif</file>
-        <file>image/fond-transparent.png</file>
         <file>image/restart.png</file>
+        <file>image/piece_animation.gif</file>
+        <file>image/vide.png</file>
     </qresource>
 </RCC>
