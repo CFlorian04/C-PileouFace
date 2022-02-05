@@ -1,0 +1,6 @@
+<RCC>
+    <qresource prefix="/.">
+        <file>image/1_euro_face_commune_2.png</file>
+        <file>image/1_euro_France.png</file>
+    </qresource>
+</RCC>
